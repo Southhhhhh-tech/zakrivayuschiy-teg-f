@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-color: #fff;
+    --accent-color: #000;
+    --card-background-color: #fff;
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
+    --font-weight-card-title: 715;
+    --font-weight-main-text: 410;
+    --font-size-header-main: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+    --font-size-header-accent: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+    --page-inline-size: clamp(375px, 100vw, 700px);
+    --dialog-inline-size: clamp(341px, calc(327.154px + 3.692vw), 353px);
+    --watermark-text-color: rgba(0, 0, 0, 0.5);
+    --watermark-text-stroke-color: rgba(255, 255, 255, 0.5);
+    --contour-color: #000;
+    --animation-fill-color: rgb(255, 0, 0);
+    --border-main: 2px solid var(--accent-color, #000);
+    --gap-big: 50px;
+    --gap-medium: 25px;
+    --gap-small: 20px;
+    --background-gradient:
+        repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+}
