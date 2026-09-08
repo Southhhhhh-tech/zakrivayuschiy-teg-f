@@ -260,7 +260,7 @@
 
 @supports(font-variation-settings: normal) {
   .card__title { font-variation-settings: 'wght' var(--font-weight-card-title, 715); }
-  .card__content { font-variation-settings: 'wght' var(--font-weight-main-text, 410); }
+  .card__text { font-variation-settings: 'wght' var(--font-weight-main-text, 410); }
 }
 
 @media (width <= 375px) {
